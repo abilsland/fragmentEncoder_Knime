@@ -34,15 +34,15 @@ Installation:
 - You should be ready to go
 
 Notes:
-For server deployment, we suggest to leave the 3 Keras network reader nodes executed and loaded in the workflow prior to deployment
-All other nodes should be reset
+- For server deployment, we suggest to leave the 3 Keras network reader nodes executed and loaded in the workflow prior to deployment
+- All other nodes should be reset
+- Details of parts of the workflow relating to exotic SMILES and PSO parameters that can be reconfigured are in the paper
+- Note that the PSO optimisation requires a SMARTS file containg structural alerts
 
-Details of parts of the workflow relating to exotic SMILES and PSO parameters that can be reconfigured are in the paper
-
-Note that the PSO optimisation requires a SMARTS file containg structural alerts
 A default file is provided from sureChembl with some additions to rein in the model's imagination
 See https://www.surechembl.org/knowledgebase/169485-non-medchem-friendly-smarts
 Original source: Sushko et al (2012), Journal of Chemical Information and Modeling 2012 52 (8), 2310-2316
+
 The user is advised to supply their own more comprehensive file for optimal performance.
 We direct users to a larger set of filters curated by Greg Landrum for optimal performance in RDKit. See:
 These curated filters are available at https://github.com/rdkit/rdkit/blob/master/Data/Pains/wehi_pains.csv
