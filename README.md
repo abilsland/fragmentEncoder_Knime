@@ -43,11 +43,9 @@ Notes:
 See https://www.surechembl.org/knowledgebase/169485-non-medchem-friendly-smarts.
 Original source: Sushko et al (2012), Journal of Chemical Information and Modeling 2012 52 (8), 2310-2316.
 
-- The user is advised to supply their own more comprehensive file for optimal performance.
-We direct users to a larger set of filters curated by Greg Landrum for optimal performance in RDKit. 
+- The user is advised to supply their own more comprehensive file for optimal performance. We direct users to a larger set of filters curated by Greg Landrum for optimal performance in RDKit. 
 
-See:
-These curated filters are available at https://github.com/rdkit/rdkit/blob/master/Data/Pains/wehi_pains.csv
+- These curated filters are available at https://github.com/rdkit/rdkit/blob/master/Data/Pains/wehi_pains.csv
 
 For further details on the origin of these, see:
 - http://rdkit.blogspot.com/2015/08/curating-pains-filters.html
