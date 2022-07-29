@@ -1,22 +1,22 @@
 The repository contains a KNIME workflow to generate novel fragments for FBDD using the "syntax corrected" dual encoder model reported in Bisland et al (2021).
+
 See https://pubs.acs.org/doi/10.1021/acs.jcim.0c01226
 
 Full description of the KNIME workflow, instructions, and requirements are detailed in Bilsland et al (2022).
+
 See ......
 
 Tested on:
-Ubuntu 16.04
-
-KNIME Analytics Platform 4.1.2
-
-KNIME Server 4.10.1
+- Ubuntu 16.04
+- KNIME Analytics Platform 4.1.2
+- KNIME Server 4.10.1
 
 Other requirements:
-Anaconda3
-CUDA >= 10.0.130
+- Anaconda3
+- CUDA >= 10.0.130
 
 KNIME requirements:
-Python, RDKit, and Keras integration - see paper for details but KNIME should automatically offer to search and install these when the workflow is opened.
+- Python, RDKit, and Keras integration - see paper for details but KNIME should automatically offer to search and install these when the workflow is opened.
 
 Installation:
 - Install KNIME (https://www.knime.com/)
