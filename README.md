@@ -6,7 +6,9 @@ See ......
 
 Tested on:
 Ubuntu 16.04
+
 KNIME Analytics Platform 4.1.2
+
 KNIME Server 4.10.1
 
 Other requirements:
