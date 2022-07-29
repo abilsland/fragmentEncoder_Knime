@@ -39,23 +39,26 @@ Notes:
 - Details of parts of the workflow relating to exotic SMILES and PSO parameters that can be reconfigured are in the paper
 - Note that the PSO optimisation requires a SMARTS file containg structural alerts
 
-A default file is provided from sureChembl with some additions to rein in the model's imagination
-See https://www.surechembl.org/knowledgebase/169485-non-medchem-friendly-smarts
-Original source: Sushko et al (2012), Journal of Chemical Information and Modeling 2012 52 (8), 2310-2316
+- A default file is provided from sureChembl with some additions to rein in the model's imagination.
+See https://www.surechembl.org/knowledgebase/169485-non-medchem-friendly-smarts.
+Original source: Sushko et al (2012), Journal of Chemical Information and Modeling 2012 52 (8), 2310-2316.
 
-The user is advised to supply their own more comprehensive file for optimal performance.
-We direct users to a larger set of filters curated by Greg Landrum for optimal performance in RDKit. See:
+- The user is advised to supply their own more comprehensive file for optimal performance.
+We direct users to a larger set of filters curated by Greg Landrum for optimal performance in RDKit. 
+
+See:
 These curated filters are available at https://github.com/rdkit/rdkit/blob/master/Data/Pains/wehi_pains.csv
 
 For further details on the origin of these, see:
-http://rdkit.blogspot.com/2015/08/curating-pains-filters.html
-Baell and Holloway (2010) J Med Chem, 2010. 53(7): p. 2719-40
-Saubern et al (2011) Mol Inform, 2011. 30(10): p. 847-50
+- http://rdkit.blogspot.com/2015/08/curating-pains-filters.html
+- Baell and Holloway (2010) J Med Chem, 2010. 53(7): p. 2719-40
+- Saubern et al (2011) Mol Inform, 2011. 30(10): p. 847-50
 
-The data folder contains the file BaseFeatures.fdef by Greg Landrum containing base definitions of pharmacophore features
-The BSD 3-clause license covering rdkit code redistribution is included below (just in case - I'm not a lawyer)
+- The data folder contains the file BaseFeatures.fdef by Greg Landrum containing base definitions of pharmacophore features
+- The BSD 3-clause license covering rdkit code redistribution is included below (just in case - I'm not a lawyer):
 
-Reproduced rdkit BSD 3-clause license: Copyright (c) 2006-2015, Rational Discovery LLC, Greg Landrum, and Julie Penzotti and others All rights reserved.
+Copyright (c) 2006-2015, Rational Discovery LLC, Greg Landrum, and Julie Penzotti and others All rights reserved.
+
 Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met:
 
 Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer.
@@ -67,5 +70,7 @@ Neither the name of the copyright holder nor the names of its contributors may b
 THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 The data folder also contains a modified version of the GPUutil.py file by Anders Krogh Mortensen (anderskm).
+
 See https://github.com/anderskm/gputil
+
 The MIT license is included in the modified file.
